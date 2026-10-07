@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.3.1"
+  version "0.3.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.1/sspur-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "369f5061048765f0ae923c5c79c88f89306dee2b21f5ae85666803b555255446"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "2731900ad4a1b04747c5ce4070661842a6bb261b418449eb93ba14f905c23d97"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.1/sspur-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "7d017c7c560a74b6d41de96e0b48c464c8640728927e39ead9a764c43f1d0713"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "25aa644064aa41254847ce8ad6c826ce43b24874a21d58b83cd9fdcbee4a910b"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.1/sspur-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f0ec66f2fb44d6e67a69cff0118008901a6fd201f577b909f937ac5675fe14fc"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4cd721ecf681d1c938e86914988354c2ffbd2d4ece084c4cbf1d371d8dd0d8a3"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.1/sspur-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a6e1b78946550bcab482a4e7d6ce8319ac9abd858aeafd40705a4b4f17fc3089"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6311c591fd2a344042152ec6f57f38b698d8c91ebe5a99c296f971149fa062d6"
     end
   end
 
