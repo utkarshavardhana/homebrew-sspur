@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.4.0"
+  version "0.4.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6c3ed92b8557c2b257695dafe093e710d632762d3198b909d993b3eecfe337db"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4817012ffcda51b9ed4f997136431b5c3e5c7cca65f00eec53add2ee90d710de"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9450677cb4abb3cf210bac2513953dba88338e8a10df0b5ab094f50d92132f56"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "81fb61075f23acc14de5bd139fd3419bb491224648b67b0edc70e48c68fbf7f7"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7f4a444718c7f3ee7ef71d3f9814e0d713fa3ec02589feff72b67cb833e1963d"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6e476770d7fc317b822f2b2ae9bdfdfbc434c497f96dd351f3811529c2f291ad"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1ccb7df5c94d59242124c80f045da286fd2e397f1b29837ec6a3fdc12b77ae74"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7964767a2e6162941714e978a6a2430e48d3a223e08e113a39f92de035e1f7f8"
     end
   end
 
