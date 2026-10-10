@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.3.2"
+  version "0.4.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2731900ad4a1b04747c5ce4070661842a6bb261b418449eb93ba14f905c23d97"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6c3ed92b8557c2b257695dafe093e710d632762d3198b909d993b3eecfe337db"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "25aa644064aa41254847ce8ad6c826ce43b24874a21d58b83cd9fdcbee4a910b"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9450677cb4abb3cf210bac2513953dba88338e8a10df0b5ab094f50d92132f56"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4cd721ecf681d1c938e86914988354c2ffbd2d4ece084c4cbf1d371d8dd0d8a3"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7f4a444718c7f3ee7ef71d3f9814e0d713fa3ec02589feff72b67cb833e1963d"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.3.2/sspur-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6311c591fd2a344042152ec6f57f38b698d8c91ebe5a99c296f971149fa062d6"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.0/sspur-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1ccb7df5c94d59242124c80f045da286fd2e397f1b29837ec6a3fdc12b77ae74"
     end
   end
 
