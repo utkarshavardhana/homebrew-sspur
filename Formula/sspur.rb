@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.4.1"
+  version "0.5.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4817012ffcda51b9ed4f997136431b5c3e5c7cca65f00eec53add2ee90d710de"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.5.0/sspur-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5f26d266cb51bf277e0aba2879505a59a074c4cc745b819c7ac53f2f1895e857"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "81fb61075f23acc14de5bd139fd3419bb491224648b67b0edc70e48c68fbf7f7"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.5.0/sspur-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e0154bbf6a65bb9e798857f157b85bd6ea747320c5c26edb9a0484fcda7a7015"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6e476770d7fc317b822f2b2ae9bdfdfbc434c497f96dd351f3811529c2f291ad"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.5.0/sspur-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6b8c1410f9a752d9e36cc495d49544a83a84d07f2bb177f12acb3f32c53408c6"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.4.1/sspur-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7964767a2e6162941714e978a6a2430e48d3a223e08e113a39f92de035e1f7f8"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.5.0/sspur-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0be8c9602c84b789c94b315a5744fabd05cd7cf6152d7ddd3fc2a10315076cff"
     end
   end
 
